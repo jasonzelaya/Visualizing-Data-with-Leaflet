@@ -1,0 +1,73 @@
+html,
+body,
+#map-id {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.legend {
+  padding: 10px;
+  font-family: Sanchez, serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #555;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+.alert-success p {
+  color: #333;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.marsDetails td {
+  background: lightblue;
+  padding: 3px;
+}
+
+.marsDetails th {
+  padding: 3px;
+}
+
+.marsDetails tbody th {
+  display: none;
+}
+
+.marsDetails thead th:first-child {
+  display: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #428bca;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightyellow;
+  }
+
+  .imgborder {
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 2px;
+  }
